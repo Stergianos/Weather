@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "biko";
+    src:url("Biko_Regular.otf");
+}
+
+
+
+body {
+  background-color:	#5B4D97;
+  font-family:"biko";
+  color: rgba(239, 232, 232, 0.98);
+  font-size:17px;
+}
+
+
+.logo{
+  max-width: 100%;
+  text-align:center;
+  padding-top:25%;
+}
+
+.umbrella {
+  padding-left: 51%;
+  opacity:0.4;
+  padding-top: 2%;
+}
+
+.today{
+  color:#9E87EB;
+  top: 40px;
+  margin-left: 48%;
+  font-size:25px;
+}
+
+#cityIn{
+  color:white;
+  height:50px;
+  width: 200px;
+  margin-left: -1.5%;
+}
+
+#max{
+  margin-left:2%;
+}
+
+#min{
+  margin-left:2%;
+  opacity:0.5;
+}
+
+#day1, #day2, #day3, #day4 ,#day5{
+  color:#9E87EB;
+  font-size:15px;
+  left: 8%;
+}
+
+#d1max, #d2max, #d3max, #d4max, #d5max {
+  margin-left:10%;
+
+}
+
+#d1min, #d2min, #d3min, #d4min, #d5min {
+  opacity:0.5;
+  margin-left:10%;
+
+}
+
+#name1, #name2, #name3, #name4, #name5 {
+    margin-left:10%;
+}
+
+.share{
+margin-left:50%;
+margin-top:5%;
+letter-spacing: 10px;
+color:#9E87EB;
+margin-top:2%;
+}

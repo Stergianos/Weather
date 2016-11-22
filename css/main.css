@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "biko";
+    src:url("Biko_Regular.otf");
+}
+
+
+
+body {
+  background-color:#FF7070;
+  font-family:"biko";
+  color: rgba(239, 232, 232, 0.98);
+  font-size:17px;
+}
+
+
+.logo{
+  max-width: 100%;
+  text-align:center;
+  padding-top:25%;
+}
+
+.umbrella {
+  padding-left: 50%;
+  opacity:0.4;
+  padding-top: 4%;
+}
+
+.search{
+  padding-left: 42%;
+  padding-top:15%;
+
+}
+
+.textLabel{
+  text-align:center;
+}
+
+input[type="submit"] {
+  background-image: url("glass.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  border-radius:0px;
+    left: 78%;
+    height: 27px;
+    width: 30px;
+    top: 27.3%;
+    position: absolute;
+}
+
+input[type="text"]{
+  background-color: #A770FB;
+  border:none;
+  color:rgba(239, 232, 232, 0.98);
+  border-radius:0px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(239, 232, 232, 0.42) !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(239, 232, 232, 0.42) !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(239, 232, 232, 0.42) !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(239, 232, 232, 0.42) !important;
+}
+
+.locButton{
+  background-color: #7DF4A0;
+  color:#8B95AA;
+  border-radius:0px;
+}

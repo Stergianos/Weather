@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "biko";
+    src:url("Biko_Regular.otf");
+}
+
+
+
+body {
+  background-color:#FF7070;
+  font-family:"biko";
+  color: rgba(239, 232, 232, 0.98);
+  font-size:17px;
+}
+
+
+.logo{
+  max-width: 100%;
+  text-align:center;
+  padding-top:25%;
+}
+
+.umbrella {
+  padding-left:47%;
+  opacity:0.4;
+}

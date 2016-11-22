@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <title>umbrellapp</title>
+  <link rel="shortcut icon" type="image/png" href="img/umbrella.png"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/func.js"></script>
+
+</head>
+
+
+<body>
+  <div class="header">
+    <img src="img/umbrellasm.png" class="img-responsive umbrella" >
+<div class="container">
+  <div class="col-md-12 search">
+
+    <div class="col-xs-4 textLabel">
+      type a location.. </br></br>
+
+      <input type="text" class="form-control" name="city" placeholder="type here.." id="city">
+      <input type="submit" class="form-control" value="" onclick="redirect()" id="cityButton">
+
+
+      </br>
+      or give us your location</br></br>
+      <button value="access location" class="btn btn-default locButton" aria-label="Left Align" onclick="redirect()"  id="geoButton">
+         <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+        access location
+
+      </button>
+    </div>
+
+  </div>
+</div>
+
+</body>
