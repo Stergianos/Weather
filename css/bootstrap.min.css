@@ -8010,11 +8010,17 @@ button.close {
     background-repeat: no-repeat;
     background-position:center;
     border-radius:0px;
-      left: 122% !important;
+      left: 160% !important;
       height: 27px;
       width: 30px;
-      top: 28.8% !important;
+      top: 29.8% !important;
       position: absolute;
+  }
+
+  .logo{
+    max-width: 100%;
+    text-align:center;
+    padding-top:25%;
   }
 
 
