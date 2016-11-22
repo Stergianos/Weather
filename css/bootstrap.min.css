@@ -8020,7 +8020,8 @@ button.close {
   .logo{
     max-width: 100%;
     text-align:center;
-    padding-top:25%;
+    padding-top:50% !important;
+    left:-20%;
   }
 
 
