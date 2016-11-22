@@ -6642,6 +6642,8 @@ button.close {
     display: table-cell !important;
   }
 }
+
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
     display: block !important;
