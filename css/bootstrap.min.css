@@ -7993,6 +7993,34 @@ button.close {
   .container{
     margin-left:50px !important;
   }
+  .container2{
+    margin-left:-30px !important;
+  }
+
+  input[type="text"]{
+  background-color: #A770FB;
+  border:none;
+  color:rgba(239, 232, 232, 0.98);
+  border-radius:0px;
+  width:120px;
+  }
+
+  input[type="submit"] {
+    background-image: url("glass.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius:0px;
+      left: 122% !important;
+      height: 27px;
+      width: 30px;
+      top: 28.8% !important;
+      position: absolute;
+  }
+
+
+  .textlabel{
+    width:100px;
+  }
 
     .hidden-xs {
         display: none!important
