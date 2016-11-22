@@ -7958,12 +7958,49 @@ button.close {
 }
 
 @media (max-width:767px) {
+
+  #day1, #day2, #day3, #day4 ,#day5{
+    color:#9E87EB;
+    font-size:15px;
+    left: 25% !important;
+  }
+
+  .today{
+
+      color:#9E87EB;
+      top: 40px;
+      margin-left: 30% !important;
+      font-size:25px;
+
+  }
+  .umbrella {
+    padding-left: 46% !important;
+    opacity:0.4;
+    padding-top: 2%;
+  }
+
+  #d1icon, #d2icon, #d3icon, #d4icon, #d5icon{
+    margin-left:6% !important;
+  }
+
+  .share{
+  margin-left:40% !important;
+  margin-top:5%;
+  letter-spacing: 10px;
+  color:#9E87EB;
+
+  }
+  .container{
+    margin-left:50px !important;
+  }
+
     .hidden-xs {
         display: none!important
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
+
     .hidden-sm {
         display: none!important
     }
